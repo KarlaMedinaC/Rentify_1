@@ -6,7 +6,7 @@
   "description": "Esta es una aplicación de renta y venta de casas",
   "lang": "Español",
   "dir": "auto",
-  "theme_color": "#000000",
+  "theme_color": "#FFFFFF",
   "background_color": "#FFFFFF",
   "orientation": "any",
   "icons": [
