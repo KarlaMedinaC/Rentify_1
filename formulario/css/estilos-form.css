@@ -1,0 +1,99 @@
+.contenedor-form {
+    display: flex;
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    background-color: #ffff;
+    height: 700px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 25px;
+  }
+
+.form {
+    padding: 30px 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    font-size: 45px;
+    color: #000000;
+    font-weight: 16px;
+    margin-bottom: 25px;
+}
+
+.form p {
+    font-size: 18px;
+    color: #33405A;
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 20px;
+    color: #33405A;
+    margin-bottom: 25px;
+}
+
+.form input{
+    color: #fff;
+    font-size: 20px;
+}
+.box2.estilo-nuevo {
+    border: 0;
+    background-color: #8196A0;
+    padding: 20px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    outline: none;
+    resize: none; /* Evita que se redimensione el textarea */
+    height: 150px; /* Ajusta la altura deseada para el textarea */
+    font-size: 16px; /* Ajusta el tamaño de fuente para que se vea proporcional */
+    color: #fff;
+}
+
+.box2 {
+    border: 0;
+    background-color: #8196A0;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    outline: none;
+}
+.boxer{
+    border: 0;
+    background-color: #8196A0;
+    padding: 35px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+
+}
+
+.submit {
+    background-color: #2E3FA5;
+    border: 0;
+    padding: 10px 15px; /* Ajusta el padding para hacer el botón más pequeño */
+    color: #fff;
+    font-size: 14px; /* Ajusta el tamaño de fuente para que se vea proporcional al botón más pequeño */
+    border-radius: 25px;
+    width: fit-content; /* Cambia el ancho a "fit-content" para que el botón se ajuste al contenido */
+    margin: 0 auto; /* Centra el botón horizontalmente */
+    display: block; /* Hace que el botón sea un bloque para que ocupe todo el ancho disponible */
+  }
+  
+
+@media (max-width:990px){
+    .contenedor-form{
+        width: 350px;
+        margin-top: 50px;
+    }
+
+    .info{
+        display: none;
+    }
+
+    .form{
+        width: 100%;
+        padding: 30px;
+    }
+}

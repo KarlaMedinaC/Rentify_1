@@ -1,0 +1,11 @@
+.mostrarI{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.mostrarIreduce{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+}
